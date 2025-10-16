@@ -1,0 +1,35 @@
+/* Edit this file in Chrome DevTools (Sources). Save with Ctrl+S. */
+
+/* 1) Page background color */
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f9fc; /* change if you want */
+  color:#222;
+}
+
+/* 2) Image: width, border, centered */
+#hero{
+  display:block;
+  margin: 10px auto;     /* centers the image */
+  width: 70%;            /* try 60% or 500px */
+  border: 4px solid #777;
+}
+
+/* 3) Headings and paragraph fonts/colors */
+h1, h2, h3{
+  color:#123;            /* simple heading color */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+  color:#333;            /* simple para color */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 4) List bullet types */
+ul{ list-style-type: square; }   /* try circle or disc */
+ol{ list-style-type: decimal; }  /* try upper-roman */
+
+/* 5) Colors for dt and dd */
+dt{ color:#0645AD; font-weight:bold; }
+dd{ color:#444; }
